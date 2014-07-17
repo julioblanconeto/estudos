@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+#dados_pessoais
+{	
+	border:#999 inset;
+	width:90%;
+	height:105px;
+	float:left;
+	margin-left:5%;
+}
+
+.topo
+{
+	background-color:#CCC;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	text-transform:uppercase;
+	margin-bottom:5px;
+}
+
+#range
+{
+	border:inset #999; 
+	width:22%; 
+	height:175px; 
+	float:left; 
+	margin-left:5%;
+}
+
+#dados_variados
+{
+	 border:inset #999; 
+	 width:46%; 
+	 height:175px; 
+	 float:left;
+	 float:right;
+	 margin-right:4.5%
+}
+
+#circulo
+{
+	border:ridge #999; 
+	width:12%; 
+	height:175px; 
+	float:left;
+	margin-left:5%;
+}
+.conteudo
+{
+	margin-left:10px;
+	font-size:16px;
+	font-family:"Comic Sans MS", cursive;
+	margin-top:3px;
+}
+.box
+{
+	width:42.5%;
+	margin-left: 5px;
+	margin-bottom:8px;
+}
+.box_dados_varidados
+{
+	width:80%;
+	margin-left: 5px;
+	margin-bottom:8px;
+}
+.MsgErro
+{
+	margin-left:10px;
+	font-size:16px;
+	font-family:"Comic Sans MS", cursive;
+	margin-top:3px;
+	style="width:300px;
+	text-align:center;
+	color:#F00	
+}

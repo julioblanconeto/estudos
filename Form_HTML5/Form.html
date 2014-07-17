@@ -1,0 +1,73 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>study</title>
+	
+    <link href="css/teste_css.css" rel="stylesheet" type="text/css">
+	<script src="js/geraljs.js"></script>
+</head>
+
+<body onLoad="carrega_canvas()">
+<div id="dados_pessoais" >
+	<div class="topo">Dados Pessoais  
+	</div>
+    <div style="clear:both"></div>
+    	<div>
+			<form>
+				<label  class="conteudo">Nome:</label> <input class="box" type="text" name="nome" autofocus>
+				<label  class="conteudo">Sobrenome:</label> <input class="box" type="text" name="sobrenome"><br>
+   				<label  class="conteudo">Aniversário:</label> <input type="date" name="aniversario">
+                <span id="msgErro" class="MsgErro"></span>
+    			 <input id="email" style="float:right; margin-right:0.95%;" class="box" type="email" onFocus="limpa_msn_erro();" onBlur="valida_email();" name="email" ><label  class="conteudo" style="float:right">E-mail:</label>
+                
+			</form>
+    	</div>
+    </div>
+    <div style=" clear:both"></div><br>
+    <div id="range">
+		<div class="topo">RANGE
+		</div>
+   		<div style="clear:both"></div>
+        <div align="center">
+    		<label  class="conteudo">Quantidade (entre 1 e 50): </label><input type="number" name="quantity" min="1" max="50"><br>
+			<form action="file:///C|/Users/julio/Desktop/demo_form.asp" method="get">
+			<label  class="conteudo">	Pontos: 0</label><input type="range" name="points" min="1" max="50">50
+         </div>
+				<input class="conteudo" type="button" value="Salvar" >
+               <label  class="conteudo"> Quantidade: "range"</label>
+			</form>
+       		
+        
+	</div>
+    
+        	<div id="circulo" >
+			<div class="topo">Circulo  
+			</div>
+             	<canvas id="myCanvas" width="170" height="103">
+				Seu browser não suporta o HTML5 tag canvas.</canvas>
+                 
+                  <input id="troca_cor1" onClick="troca_cor1()" class="conteudo" type="button" value="Troca 1" style="margin-left:10px;">
+                  <input id="troca_cor2" onClick="troca_cor2()" class="conteudo" type="button" value="Troca 2" style="margin-left:2px;">
+		</div> 
+    
+    <div id="dados_variados">
+		<div class="topo">Dados Variados  
+		</div>
+    	<div style="clear:both"></div>
+        <div  class="conteudo">
+    		<form >
+    			<label  class="conteudo">Busca Google:</label> <input id="search_dados" name="search_dados" onBlur="salvar_dados()" class="box_dados_varidados" type="search" name="googlesearch"><br>
+    			<label  class="conteudo">Homepage:</label> <input id="homepage" class="box_dados_varidados"  style="margin-left:3.55%;"type="url" name="homepage" onBlur="salvar_dados()"><br>
+                <label  class="conteudo">Selecione uma semana:</label> <input id="weeker" type="week" name="week_year">
+    			<label  class="conteudo">Selecione um horário:</label> <input id="timer" type="time" name="usr_time">
+    			<input id="botao_salvar" onClick="salva_dados()" class="conteudo" type="button" value="Salvar" style="margin-left:2px;">
+                <input id="botao_limpar" onClick="limpar_dados()" class="conteudo" type="button" value="Limpar" style="margin-left:2px;">
+			</form>
+           
+    	</div>     
+    </div>
+
+  </body>
+
+</html>
