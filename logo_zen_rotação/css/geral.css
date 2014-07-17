@@ -1,0 +1,479 @@
+﻿#borda
+{
+    margin-left:200px;
+    width:550px;
+    height:550px;
+    border-radius:550px;
+    background-color:#0094ff;
+}
+#principal 
+{   margin-left:16px;
+    width:500px;
+    height:500px;
+    border-radius:500px;
+    background-color:#0094ff;
+    border: solid 10px;
+    border-color:#fff;
+}
+#rotação_palavra
+{   
+    width:500px;
+    margin-top:240px;
+    color:#fff;
+    font-size:150px;
+    position:absolute;
+    animation:rotação_palavra 7s infinite;
+    -o-animation:rotação_palavra 7s infinite;
+    -moz-animation:rotação_palavra 7s infinite;
+    -webkit-animation:rotação_palavra 7s infinite;
+   /* inicio IE*/
+}
+@keyframes rotação_palavra
+{
+0%
+	{
+	transform: rotate(0deg);
+	}
+25%
+	{
+	transform: rotate(90deg);
+	}
+50%
+	{
+	transform: rotate(180deg);
+	}
+75%
+	{
+	transform: rotate(270deg);
+	}
+100%
+	{
+	transform: rotate(360deg)
+	}
+}
+ /* fim IE*/
+
+   /* inicio opera*/
+
+@-o-keyframes rotação_palavra
+{
+0%
+	{
+	-o-transform: rotate(0deg);
+	}
+25%
+	{
+	-o-transform: rotate(90deg);
+	}
+50%
+	{
+	-o-transform: rotate(180deg);
+	}
+75%
+	{
+	-o-transform: rotate(270deg);
+	}
+100%
+	{
+	-o-transform: rotate(360deg)
+	}
+}
+ /* fim opera*/
+
+ /* inicio firefox*/
+ @-moz-keyframes rotação_palavra
+{
+0%
+	{
+	-moz-transform: rotate(0deg);
+	}
+25%
+	{
+	-moz-transform: rotate(90deg);
+	}
+50%
+	{
+	-moz-transform: rotate(180deg);
+	}
+75%
+	{
+	-moz-transform: rotate(270deg);
+	}
+100%
+	{
+	-moz-transform: rotate(360deg)
+	}
+}
+ /* fim firefox*/
+
+/* inicio chrome safari*/
+@-webkit-keyframes rotação_palavra
+{
+0%
+	{
+	-webkit-transform: rotate(0deg);
+	}
+25%
+	{
+	-webkit-transform: rotate(90deg);
+	}
+50%
+	{
+	-webkit-transform: rotate(180deg);
+	}
+75%
+	{
+	-webkit-transform: rotate(270deg);
+	}
+100%
+	{
+	-webkit-transform: rotate(360deg)
+	}
+}
+/* fim chrome safari*/
+#letraZ
+{
+     margin-top:-89px;
+    margin-left:70px;
+    position: absolute;
+    animation:letraZ 7s infinite;
+    -o-animation:letraZ 7s infinite;
+    -moz-animation:letraZ 7s infinite;
+    -webkit-animation: letraZ 7s infinite;
+
+}
+/* inicio IE*/
+@keyframes letraZ
+{
+0%
+	{
+	transform: rotate(0deg);
+	}
+25%
+	{
+	transform: rotate(90deg);
+	}
+50%
+	{
+	transform: rotate(270deg);
+	}
+75%
+	{
+	transform: rotate(360deg);
+	}
+100%
+	{
+	transform: rotate(540deg)
+	}
+}
+/* fim IE*/
+
+/* inicio opera*/
+@-o-keyframes letraZ
+{
+0%
+	{
+	-o-transform: rotate(0deg);
+	}
+25%
+	{
+	-o-transform: rotate(90deg);
+	}
+50%
+	{
+	-o-transform: rotate(270deg);
+	}
+75%
+	{
+	-o-transform: rotate(360deg);
+	}
+100%
+	{
+	-o-transform: rotate(540deg)
+	}
+}
+/* fim opera*/
+
+/* inicio firefox*/
+@-moz-keyframes letraZ
+{
+0%
+	{
+	-moz-transform: rotate(0deg);
+	}
+25%
+	{
+	-moz-transform: rotate(90deg);
+	}
+50%
+	{
+	-moz-transform: rotate(270deg);
+	}
+75%
+	{
+	-moz-transform: rotate(360deg);
+	}
+100%
+	{
+	-moz-transform: rotate(540deg)
+	}
+}
+/* fim firefox*/
+
+/* inicio chrome safari*/
+@-webkit-keyframes letraZ
+{
+0%
+	{
+	-webkit-transform: rotate(0deg);
+	}
+25%
+	{
+	-webkit-transform: rotate(90deg);
+	}
+50%
+	{
+	-webkit-transform: rotate(270deg);
+	}
+75%
+	{
+	-webkit-transform: rotate(360deg);
+	}
+100%
+	{
+	-webkit-transform: rotate(540deg)
+	}
+}
+/* fim chrome safari*/
+#letraE 
+{
+    margin-top:-89px;
+    margin-left:216px;
+    position: absolute;
+    animation: letraE 7s infinite;
+    -o-animation: letraE 7s infinite;
+    -moz-animation: letraE 7s infinite;
+    -webkit-animation: letraE 7s infinite;
+    
+}
+/*inicio IE */
+@keyframes letraE
+{
+0%
+	{
+	transform: rotate(0deg);
+	}
+25%
+	{
+	transform: rotate(-90deg);
+	}
+50%
+	{
+	transform: rotate(-180deg);
+	}
+75%
+	{
+	transform: rotate(-270deg);
+	}
+100%
+	{
+	transform: rotate(-360deg)
+	}
+}
+/* fim IE*/
+
+
+/* inicio opera*/
+@-o-keyframes letraE
+{
+0%
+	{
+	-o-transform: rotate(0deg);
+	}
+25%
+	{
+	-o-transform: rotate(-90deg);
+	}
+50%
+	{
+	-o-transform: rotate(-180deg);
+	}
+75%
+	{
+	-o-transform: rotate(-270deg);
+	}
+100%
+	{
+	-o-transform: rotate(-360deg)
+	}
+}
+/* fim opera*/
+
+
+/* inicio firefox*/
+@-moz-keyframes letraE
+{
+0%
+	{
+	-moz-transform: rotate(0deg);
+	}
+25%
+	{
+	-moz-transform: rotate(-90deg);
+	}
+50%
+	{
+	-moz-transform: rotate(-180deg);
+	}
+75%
+	{
+	-moz-transform: rotate(-270deg);
+	}
+100%
+	{
+	-moz-transform: rotate(-360deg)
+	}
+}
+/* fim firefox*/
+
+
+/* inicio chrome safari*/
+@-webkit-keyframes letraE
+{
+0%
+	{
+	-webkit-transform: rotate(0deg);
+	}
+25%
+	{
+	-webkit-transform: rotate(-90deg);
+	}
+50%
+	{
+	-webkit-transform: rotate(-180deg);
+	}
+75%
+	{
+	-webkit-transform: rotate(-270deg);
+	}
+100%
+	{
+	-webkit-transform: rotate(-360deg)
+	}
+}
+/* fim chrome safari*/
+
+#letraN
+{
+     margin-top:-89px;
+    margin-left:340px;
+    position: absolute;
+    animation: letraN 7s infinite;
+    -o-animation: letraN 7s infinite;
+    -moz-animation: letraN 7s infinite;
+    -webkit-animation: letraN 7s infinite;
+    
+}
+/* inicio IE*/
+@keyframes letraN
+{
+0%
+	{
+	transform: rotate(0deg);
+	}
+25%
+	{
+	transform: rotate(90deg);
+	}
+50%
+	{
+	transform: rotate(270deg);
+	}
+75%
+	{
+	transform: rotate(360deg);
+	}
+100%
+	{
+	transform: rotate(540deg)
+	}
+}
+/* fim IE*/
+
+/* inicio opera*/
+@-o-keyframes letraN
+{
+0%
+	{
+	-o-transform: rotate(0deg);
+	}
+25%
+	{
+	-o-transform: rotate(90deg);
+	}
+50%
+	{
+	-o-transform: rotate(270deg);
+	}
+75%
+	{
+	-o-transform: rotate(360deg);
+	}
+100%
+	{
+	-o-transform: rotate(540deg)
+	}
+}
+/* fim opera*/
+
+/* inicio firefox*/
+@-moz-keyframes letraN
+{
+0%
+	{
+	-moz-transform: rotate(0deg);
+	}
+25%
+	{
+	-moz-transform: rotate(90deg);
+	}
+50%
+	{
+	-moz-transform: rotate(270deg);
+	}
+75%
+	{
+	-moz-transform: rotate(360deg);
+	}
+100%
+	{
+	-moz-transform: rotate(540deg)
+	}
+}
+/* fim firefox*/
+
+/* inicio chrome safari*/
+@-webkit-keyframes letraN
+{
+0%
+	{
+	-webkit-transform: rotate(0deg);
+	}
+25%
+	{
+	-webkit-transform: rotate(90deg);
+	}
+50%
+	{
+	-webkit-transform: rotate(270deg);
+	}
+75%
+	{
+	-webkit-transform: rotate(360deg);
+	}
+100%
+	{
+	-webkit-transform: rotate(540deg)
+	}
+}
+/* fim chrome safari*/
